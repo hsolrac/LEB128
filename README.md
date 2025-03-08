@@ -4,11 +4,12 @@ LEB-128 or `Little Endia Base 128` is a variable-lenght code compression used to
 ##### TODOS:
 
 - Unsiged LEB128
-
-- [ ]  Represent the number in binary.
-- [ ]  Extend the number for zero, seven multiples.
-- [ ]  Divide the number into groups of seven bits.
-- [ ]  Byte each group of seven bits.
-- [ ]  Define the most significant bit in each byte (excluding the last byte).
+  - [x]  Represent the number in binary.
+  - [x]  Extend the number for zero, seven multiples.
+  - [x]  Divide the number into groups of seven bits.
+  - [x]  Byte each group of seven bits.
+  - [x]  Define the most significant bit in each byte (excluding the last byte).
+- []  Add create `inquire` for interactive cli
+- []  Add tests
 
 
