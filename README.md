@@ -9,7 +9,7 @@ LEB-128 or `Little Endia Base 128` is a variable-lenght code compression used to
   - [x]  Divide the number into groups of seven bits.
   - [x]  Byte each group of seven bits.
   - [x]  Define the most significant bit in each byte (excluding the last byte).
-- []  Add create `inquire` for interactive cli
-- []  Add tests
+- [ ]  Add create `inquire` for interactive cli
+- [ ]  Add tests
 
 
